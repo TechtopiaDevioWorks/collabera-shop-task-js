@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+		<link rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css" />
+		<link rel="stylesheet" href="../node_modules/@creativebulma/bulma-badge/dist/bulma-badge.min.css"/>
+		<link rel="icon" type="image/x-icon" href="../style/favicon.png"/>
+		<link rel="stylesheet" href="../style/custom.css" />
+		<script src="../script/usermanager.js" defer></script>
+		<script src="../script/productmanager.js" defer></script>
+		<script src="../script/cartmanager.js" defer></script>
+		<script src="../script/theme.js" defer></script>
+		<title>My shop</title>
+	</head>
+	<body class="has-navbar-fixed-top  is-flex is-flex-direction-column h-100">
+		<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="../html/dashboard.html">
+					<img src="../style/logo.png" width="112" height="28" />
+				</a>
+
+				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-data">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+
+			<div id="navbar-data" class="navbar-menu">
+				<div class="navbar-start">
+					<a class="navbar-item is-tab is-active" onclick="allProductsClick()" id="filter-category-all"> All Products </a>
+					<div class="navbar-item has-dropdown is-hoverable is-tab is-tab-dropdown">
+						<a class="navbar-link" id="filter-category-tab">
+						Categories
+						</a>
+					
+						<div class="navbar-dropdown" id="navbar-categories">
+						</div>
+					</div>
+				</div>
+
+				<div class="navbar-end" id="navbar-end">
+
+				</div>
+			</div>
+		</nav>
+		<div class="container is-fluid">
+			<div
+				id="products-container"
+				class="is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-center"
+			></div>
+		</div>
+		<div class="modal" id="product-info-modal">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                <p class="modal-card-title limit-modal-title" id="product-info-modal-title"><!--Title--></p>
+                <button class="delete" aria-label="close"></button>
+                </header>
+                <section class="modal-card-body" id="product-info-modal-body">
+                <!-- Content ... -->
+                </section>
+                <footer class="modal-card-foot">
+                <button class="button m-auto is-primary">Close</button>
+                </footer>
+            </div>
+        </div>
+		<footer class="footer mt-auto">
+            <div class="content has-text-centered">
+				<p>
+					<strong>My shop</strong> crafted by © <a href="https://www.linkedin.com/in/alin-marius-manea-marioara-153b02116/">Alin Manea</a>. Project 
+					created as part of the Javascript Course by Collabera.
+				</p>
+				<p>
+					<div class="made-by-bulma"><a href="https://bulma.io"><img src="https://bulma.io/images/made-with-bulma--black.png" alt="Made with Bulma" width="163" height="31"></a></div>
+				</p>
+				<p>
+					<a href="https://www.flaticon.com/free-icons/technology" title="technology icons">Logo icon created by Freepik - Flaticon</a>
+				</p>
+            </div>
+        </footer>
+	</body>
+</html>

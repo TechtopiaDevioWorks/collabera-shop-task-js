@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+		<link rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css" />
+		<link rel="stylesheet" href="../node_modules/@creativebulma/bulma-badge/dist/bulma-badge.min.css"/>
+        <link rel="stylesheet" href="../style/custom.css"/>
+        <link rel="icon" type="image/x-icon" href="../style/favicon.png"/>
+		<script src="../script/usermanager.js" defer></script>
+        <script src="../script/theme.js" defer></script>
+		<title>My shop</title>
+	</head>
+	<body class="has-navbar-fixed-top is-flex is-flex-direction-column h-100">
+		<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="../html/dashboard.html">
+					<img src="../style/logo.png" width="112" height="28" />
+				</a>
+
+				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-data">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+
+			<div id="navbar-data" class="navbar-menu">
+
+			</div>
+            <div class="navbar-end" id="navbar-end">
+
+            </div>
+		</nav>
+		<div class="container is-fluid is-flex">
+			<div
+				id="form-container-login" style="max-width:350px"
+				class="container is-flex is-flex-direction-column is-flex-wrap-wrap is-justify-content-center">
+                <h3 class="title is-3 has-text-centered">Login</h3>
+				<div class="field m-2">
+					<label class="label">Username</label>
+					<div class="control">
+						<input class="input" type="text" placeholder="Input your username" name="lf_username" id="lf_username" minlength="1"/>
+					</div>
+				</div>
+
+                <div class="field m-2">
+					<label class="label">Password</label>
+					<div class="control">
+						<input class="input" type="password" placeholder="Input your password" name="lf_password" id="lf_password"/>
+					</div>
+				</div>
+
+				<div class="field is-grouped">
+                    <div class="control m-auto">
+						<button class="button is-link" id="goRegisterButton" onclick="go2Register()">Register</button>
+					</div>
+					<div class="control m-auto">
+						<button class="button is-primary" id="loginButton" onclick="loginUser()">Login</button>
+					</div>
+				</div>
+			</div>
+            <div
+            id="form-container-register" style="max-width:350px"
+            class="container is-flex is-flex-direction-column is-flex-wrap-wrap is-justify-content-center is-hidden">
+            <h3 class="title is-3 has-text-centered">Register</h3>
+            <div class="field m-2">
+                <label class="label">Username</label>
+                <div class="control has-icons-right">
+                    <input class="input" type="text" placeholder="Input your username" name="rf_username" id="rf_username" minlength="1"/>
+                    <span class="icon is-small is-right">
+                        <i class="fas fa-star-of-life"></i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="field m-2">
+                <label class="label">Firstname</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Input your firstname" name="rf_firstname" id="rf_firstname"/>
+                </div>
+            </div>
+
+            <div class="field m-2">
+                <label class="label">Lastname</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Input your lastname" name="rf_lastname" id="rf_lastname"/>
+                </div>
+            </div>
+
+            <div class="field m-2 is-hidden" id="rf_business_field">
+                <label class="label">Company name</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Input your company name" name="rf_business" id="rf_business"/>
+                </div>
+            </div>
+
+            <div class="field m-2">
+                <label class="label">Password</label>
+                <div class="control has-icons-right">
+                    <input class="input" type="password" placeholder="Input your password" name="rf_password" id="rf_password"/>
+                    <span class="icon is-small is-right">
+                        <i class="fas fa-star-of-life"></i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="field m-2">
+                <label class="label">Password confirmation</label>
+                <div class="control has-icons-right">
+                    <input class="input" type="password" placeholder="Confirm your password" name="rf_passwordc" id="rf_passwordc"/>
+                    <span class="icon is-small is-right">
+                        <i class="fas fa-star-of-life"></i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="field m-2">
+                <div class="control">
+                    <label class="checkbox">
+                    <input type="checkbox" onclick="toggleBusinessRegistration()" id="rf_business_switch">
+                    Business account
+                    </label>
+                </div>
+            </div>
+
+            <div class="field is-grouped">
+                <div class="control m-auto">
+                    <button class="button is-link" id="goLoginButton" onclick="go2Login()">Back</button>
+                </div>
+                <div class="control m-auto">
+                    <button class="button is-primary" id="registerButton" onclick="registerAccount()">Register</button>
+                </div>
+            </div>
+        </div>
+		</div>
+        <footer class="footer mt-auto">
+            <div class="content has-text-centered">
+              <p>
+                <strong>My shop</strong> crafted by © <a href="https://www.linkedin.com/in/alin-marius-manea-marioara-153b02116/">Alin Manea</a>. Project 
+                created as part of the Javascript Course by Collabera.
+              </p>
+              <p>
+				<div class="made-by-bulma"><a href="https://bulma.io"><img src="https://bulma.io/images/made-with-bulma--black.png" alt="Made with Bulma" width="163" height="31"></a></div>
+			  </p>
+              <p>
+                <a href="https://www.flaticon.com/free-icons/technology" title="technology icons">Logo icon created by Freepik - Flaticon</a>
+            </p>
+            </div>
+        </footer>
+	</body>
+</html>

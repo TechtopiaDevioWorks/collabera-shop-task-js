@@ -1,0 +1,441 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "username": "amanea",
+      "password": "123pass",
+      "firstname": "Alin",
+      "lastname": "Manea",
+      "token": "WyGBvQX3Bi8lKPYrtpVnG8cqPUiShP",
+      "business": false,
+      "business_name": null
+    },
+    {
+      "id": 1,
+      "username": "techtopia",
+      "password": "password",
+      "firstname": "Alin",
+      "lastname": "Manea",
+      "business_name": "Techtopia",
+      "token": "MAt0dLrxN01b2vRqKHP7Di4PSeG8uh",
+      "business": true
+    },
+    {
+      "username": "test123",
+      "password": "123456",
+      "firstname": "test name",
+      "lastname": "",
+      "token": "70Lr335ZhmA84NhsstbzvUk1OUHc6m",
+      "business": true,
+      "business_name": "test company",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 0,
+      "category_id": 0,
+      "name": "Samsung Galaxy S23 Ultra, 512GB, Phantom Black",
+      "price": null,
+      "imgurl": "https://m.media-amazon.com/images/I/61YuXaFhZ2L._AC_SL1468_.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium semper enim, ac dignissim lorem. Integer congue interdum tellus a commodo. In elit metus, vehicula eget dolor at, blandit facilisis felis. Vivamus tempus lobortis vehicula. Donec blandit libero nunc, vitae mattis mauris porttitor ac. Aliquam ut consectetur orci, non suscipit erat. Vivamus nec consectetur nisi. Nulla sagittis ornare ante, nec efficitur tortor pulvinar id. Sed placerat tincidunt tortor, nec accumsan diam imperdiet non. Curabitur pharetra vel metus et ullamcorper. Nunc a molestie lacus. Suspendisse nisi diam, vehicula eget facilisis a, efficitur quis mi. Nam vel est ut nunc blandit condimentum sit amet nec elit."
+    },
+    {
+      "id": 1,
+      "category_id": 0,
+      "name": "Samsung Galaxy S22 Ultra, 128GB, Phantom Black",
+      "price": 4500,
+      "imgurl": "https://m.media-amazon.com/images/I/61U6oC65TTL._AC_SL1500_.jpg",
+      "description": "Praesent diam eros, aliquet et aliquet at, scelerisque et dui. Praesent fermentum viverra commodo. Sed ut laoreet arcu, quis cursus augue. Curabitur ut mollis ex. Fusce tristique consectetur tellus quis ornare. Vivamus vel mauris ullamcorper, blandit massa eget, pretium lorem. Nullam varius mattis ultrices. Aenean in elementum tortor. Quisque at condimentum ex, at dignissim nulla. Duis quis scelerisque est. Nam pretium nibh ipsum, vitae semper nibh finibus eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam eu varius risus. Sed imperdiet magna mi, ut vestibulum ligula eleifend eget. Morbi eros elit, ultrices vel tincidunt vel, porttitor vitae sem."
+    },
+    {
+      "id": 2,
+      "category_id": 0,
+      "name": "Apple iPhone 14, 128GB, Blue",
+      "price": 3800,
+      "imgurl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_SL1500_.jpg",
+      "description": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin blandit arcu vitae turpis maximus vulputate. Duis sit amet est purus. Nullam id nisi mauris. Praesent aliquam a risus quis pretium. Sed et nisi sem. Sed efficitur feugiat erat, sit amet rhoncus orci sollicitudin eu. In condimentum, ipsum non imperdiet iaculis, justo elit rutrum elit, a facilisis purus dui in erat. Nulla interdum pulvinar turpis, eget vehicula massa congue ut. Sed malesuada eleifend placerat."
+    },
+    {
+      "id": 3,
+      "category_id": 0,
+      "name": "Apple iPhone 14 Pro Max, 128GB, 5G, Space Black",
+      "price": 6500,
+      "imgurl": "https://m.media-amazon.com/images/I/51uD1lmrV8L._AC_SL1000_.jpg",
+      "description": "Aenean in nibh pharetra urna blandit vulputate ut id velit. Mauris sollicitudin bibendum nisl tristique aliquet. Nam porta massa mi, sit amet pretium libero accumsan vehicula. Pellentesque sed rhoncus massa. Nulla posuere luctus ex, vitae pellentesque lorem molestie quis. Etiam hendrerit velit sed sem elementum, consectetur finibus nisl fringilla. Fusce in massa ornare, tincidunt metus non, commodo ante. Nullam auctor metus nibh, vitae dapibus justo congue ac. Aliquam aliquet elit sed urna laoreet pretium. Nulla urna orci, pharetra eget ipsum nec, faucibus consequat massa. Sed dictum dapibus ex id ultrices. Phasellus egestas id justo dignissim placerat. Donec fermentum blandit ipsum in pretium."
+    },
+    {
+      "id": 4,
+      "category_id": 0,
+      "name": "Apple iPhone 14 Pro, 128GB, 5G, Space Black",
+      "price": 6050,
+      "imgurl": "https://m.media-amazon.com/images/I/41al5-lNvML._AC_SL1000_.jpg",
+      "description": "Phasellus fringilla et velit eget molestie. Nam eu massa eget nibh volutpat eleifend. Nunc pulvinar rhoncus nisi, nec consectetur velit sodales a. Vestibulum scelerisque euismod eros, vitae facilisis leo pretium id. Suspendisse id sapien eros. Quisque at suscipit mauris. Quisque bibendum felis justo, quis aliquet orci lacinia ut. Fusce accumsan vulputate dui vel dignissim.            "
+    },
+    {
+      "id": 5,
+      "category_id": 0,
+      "name": "Apple iPhone 11, 128GB, Black",
+      "price": 2320,
+      "imgurl": "https://m.media-amazon.com/images/I/41Bc1by7f6L._AC_SL1000_.jpg",
+      "description": "Curabitur commodo elementum lorem vel dapibus. Morbi eget ipsum id neque dictum molestie. Fusce elementum velit et lorem mollis accumsan. Donec non metus fringilla, finibus nulla non, rutrum urna. Nam ipsum augue, porta eget ligula et, bibendum pellentesque ligula. Sed eget eros nunc. Maecenas malesuada velit quis sodales porttitor. Nunc ex nulla, blandit a nibh nec, maximus auctor risus. Phasellus porttitor luctus nibh eu tincidunt. Donec laoreet tellus sit amet risus gravida malesuada. Phasellus id ullamcorper augue."
+    },
+    {
+      "id": 6,
+      "category_id": 0,
+      "name": "Motorola Edge 30 Fusion, Dual SIM, 256GB, 12GB RAM, 5G, Cosmic Grey",
+      "price": 2655,
+      "imgurl": "https://m.media-amazon.com/images/I/51uCoiLcqHL._AC_.jpg",
+      "description": "Nulla eu dictum libero. Nullam fringilla leo quis lectus rhoncus condimentum. Sed id consectetur massa. Vestibulum in velit sollicitudin, consequat sapien et, blandit odio. Nunc pretium augue malesuada orci sodales varius. Mauris sagittis suscipit mauris, non viverra tellus. Suspendisse potenti. Vivamus et enim finibus, mattis justo non, accumsan sem."
+    },
+    {
+      "id": 7,
+      "category_id": 0,
+      "name": "Samsung Galaxy A13, 128GB, 4GB RAM, 4G, Nacho Black",
+      "price": 750,
+      "imgurl": "https://m.media-amazon.com/images/I/61xhaqnlKPL._AC_SL1000_.jpg",
+      "description": "Mauris congue finibus ipsum vitae faucibus. Suspendisse rutrum magna vel leo egestas, sit amet tempus ligula sollicitudin. Donec odio metus, porta at luctus et, vehicula et risus. Morbi sagittis erat non risus varius sagittis. Phasellus vulputate finibus nisl, ut consectetur nisi cursus hendrerit. Donec sit amet arcu non risus fermentum ultrices vitae sit amet felis. Vestibulum gravida fringilla tellus id malesuada. In dictum eros interdum vehicula semper. Nullam bibendum nulla eget libero luctus vulputate. Aliquam pulvinar pellentesque enim, in feugiat turpis consectetur sed."
+    },
+    {
+      "id": 8,
+      "category_id": 0,
+      "name": "Samsung Galaxy S10+, Dual SIM, 128GB, 8GB RAM, 4G, Black",
+      "price": 1600,
+      "imgurl": "https://m.media-amazon.com/images/I/61eCdKZk17L._AC_SL1500_.jpg",
+      "description": "Aliquam sed elementum urna. Vestibulum nec odio a leo blandit pellentesque. Phasellus ac libero velit. Donec cursus pellentesque accumsan. Nam sagittis augue risus. Aliquam porttitor justo quis arcu condimentum, quis maximus eros ornare. Nullam fringilla, nisi quis luctus blandit, sem felis pretium augue, a finibus metus massa et sapien."
+    },
+    {
+      "id": 9,
+      "category_id": 0,
+      "name": "Xiaomi 11T Pro, 8GB RAM, 256GB, 5G, Moonlight White",
+      "price": 1954,
+      "imgurl": "https://m.media-amazon.com/images/I/51o4YWbfwKL._AC_SL1215_.jpg",
+      "description": "Phasellus tempor mauris nec mauris tempus condimentum. Duis sit amet ornare urna. Sed congue sem sit amet erat accumsan luctus. Vivamus in turpis eu arcu pretium congue in sed enim. Maecenas at sagittis ante. Etiam ligula metus, euismod id eros vitae, convallis aliquam nisi. Cras consectetur sodales sagittis. Cras ultrices accumsan velit vel pretium. Maecenas lectus dui, eleifend a dapibus sed, dignissim sed nisi. Nunc nec mi quis nibh congue volutpat. Ut et urna sit amet est semper consequat a in eros. Nullam imperdiet aliquam ligula, non imperdiet libero congue non. Cras ut gravida nunc. Nullam porta efficitur massa, ac blandit ipsum mollis ut. Maecenas id enim leo."
+    },
+    {
+      "id": 10,
+      "category_id": 1,
+      "name": "Apple AirPods (3rd Generation)",
+      "price": 800,
+      "imgurl": "https://m.media-amazon.com/images/I/61CVih3UpdL._AC_SL1500_.jpg",
+      "description": "Duis tempus lorem volutpat metus ornare, sit amet accumsan lectus rhoncus. Fusce finibus dui vel lectus fringilla, iaculis faucibus ex pretium. Sed vel semper lectus. Aenean pretium ornare elit euismod dapibus. Nullam dignissim, risus at maximus pellentesque, lectus ipsum luctus turpis, vitae congue sapien sem at ex. Sed nec porttitor mauris, non blandit quam. Aliquam erat volutpat. Vestibulum non finibus magna. Sed ac ante purus. Vivamus ac erat ex."
+    },
+    {
+      "id": 11,
+      "category_id": 1,
+      "name": "Apple AirPods Max, Space Gray",
+      "price": 3550,
+      "imgurl": "https://m.media-amazon.com/images/I/81jqUPkIVRL._AC_SL1500_.jpg",
+      "description": "Maecenas urna ante, lacinia ac vulputate et, tristique eget mauris. Nam eu aliquam tellus, quis ornare neque. Nulla quam dui, dictum eget dui in, dignissim congue sapien. Suspendisse ac condimentum nisi, sit amet efficitur dolor. Sed a pharetra leo. Integer dapibus id erat sit amet aliquam. Aliquam vel sodales magna. Maecenas sit amet urna sed magna lobortis rutrum."
+    },
+    {
+      "id": 12,
+      "category_id": 1,
+      "name": "Soundcore Anker Life Q20 Hybrid",
+      "price": 220,
+      "imgurl": "https://m.media-amazon.com/images/I/61kV3qWxT-L._AC_SL1500_.jpg",
+      "description": "Quisque a odio aliquam, auctor dolor ac, scelerisque est. In velit libero, vestibulum non sapien sit amet, congue pharetra ex. Suspendisse potenti. Sed vel arcu non nunc molestie sodales eu a elit. Pellentesque at urna in erat sollicitudin pharetra. Aenean mollis, velit non tincidunt varius, elit risus sodales nisi, vel consequat libero lorem a nibh. Curabitur est arcu, consectetur nec nibh non, scelerisque maximus risus. Quisque ornare metus vel eleifend condimentum. Sed porttitor tristique sapien, in tristique dolor dictum eget. Sed tincidunt eu est nec pulvinar."
+    },
+    {
+      "id": 13,
+      "category_id": 1,
+      "name": "USB C Charger, 150W 7 Ports USB Charging Station",
+      "price": 250,
+      "imgurl": "https://m.media-amazon.com/images/I/71YPVLvw-eL._AC_SL1500_.jpg",
+      "description": "Aenean sed ornare urna, at blandit sapien. Morbi bibendum nec diam ac convallis. Mauris ac ornare quam. Sed bibendum pellentesque dolor in porttitor. Mauris pellentesque lacinia maximus. Nullam sapien metus, congue nec risus ac, semper vulputate purus. Sed eu felis nunc. Donec efficitur tincidunt tellus ut fringilla. Praesent quis dui pulvinar, laoreet felis lobortis, posuere libero. Ut eleifend massa eget consequat pulvinar. Nulla facilisi. Duis finibus erat nec tempor tempus. Pellentesque vitae pretium lectus."
+    },
+    {
+      "id": 14,
+      "category_id": 1,
+      "name": "Wireless Charger, 3 in 1 Wireless Charging Station",
+      "price": 120,
+      "imgurl": "https://m.media-amazon.com/images/I/81VfBSdIPvL._AC_SL1500_.jpg",
+      "description": "Aliquam consectetur diam orci, et venenatis nisl elementum vel. Donec ultricies massa eu elit auctor varius. Cras sed nisl in sapien bibendum sodales. Maecenas ultricies interdum urna, in hendrerit mauris semper eu. Mauris feugiat hendrerit neque, id tempor lorem consequat nec. Ut nulla sem, scelerisque eget erat sed, faucibus ultricies mi. Nunc viverra non ipsum in placerat. Pellentesque sed orci gravida, pellentesque ipsum eget, iaculis risus. Nullam eleifend libero a eros scelerisque feugiat. Nullam dignissim dolor ligula, sit amet aliquam turpis tincidunt eget. Quisque auctor lorem est, nec ullamcorper leo fermentum eget."
+    },
+    {
+      "id": 15,
+      "category_id": 1,
+      "name": "iPhone Charger 3 Pack 10 ft ",
+      "price": 40,
+      "imgurl": "https://m.media-amazon.com/images/I/71hnUhUJJVL._SL1500_.jpg",
+      "description": "Morbi eget nisi cursus, finibus mauris vitae, aliquet mi. Etiam porttitor gravida rutrum. Etiam et nunc nunc. In turpis est, pellentesque sed cursus eu, sollicitudin non mauris. Sed fermentum odio nulla, ut posuere nibh mollis vitae. Sed ac efficitur odio. Etiam blandit, diam ut euismod venenatis, eros nibh hendrerit lectus, nec pulvinar est quam in velit. Pellentesque id interdum erat, ut porta lacus. Nullam non odio metus. Sed lorem orci, lacinia vel turpis cursus, vehicula hendrerit turpis. Quisque rutrum sem sed purus rhoncus iaculis."
+    },
+    {
+      "id": 16,
+      "category_id": 2,
+      "name": "ASUS TUF Dash 15 (2022) Gaming Laptop",
+      "price": 5000,
+      "imgurl": "https://m.media-amazon.com/images/I/71AGOX9MORL._AC_SL1500_.jpg",
+      "description": "Donec accumsan magna enim, et consectetur sapien sagittis nec. Mauris elementum lacus eget urna sodales, ac rhoncus ipsum tristique. Duis at auctor urna, id molestie mauris. Donec cursus sapien nibh, ut efficitur purus tincidunt ut. Curabitur sit amet nunc ante. Praesent eros orci, fermentum nec magna ac, pellentesque tempor magna. Suspendisse sollicitudin lectus augue, mattis iaculis sapien aliquam ut. Maecenas sit amet odio arcu. Suspendisse finibus mi quam, scelerisque sodales nibh vehicula vitae. Nullam quam elit, pellentesque nec risus ac, porta tincidunt leo. Sed vitae mauris vehicula, mollis elit a, euismod est."
+    },
+    {
+      "id": 17,
+      "category_id": 2,
+      "name": "ASUS ROG Strix G15 (2022) Gaming Laptop",
+      "price": 4500,
+      "imgurl": "https://m.media-amazon.com/images/I/71pWcOnLL+L._AC_SL1500_.jpg",
+      "description": "Mauris sagittis lectus sed cursus ullamcorper. Praesent malesuada posuere elit, quis dictum nulla. Praesent pharetra tortor eget turpis mollis ultrices sit amet vitae est. Vivamus varius posuere quam, eget consequat leo rhoncus non. Cras ipsum nunc, pharetra eu orci quis, volutpat elementum odio. Quisque viverra turpis venenatis mi sollicitudin, eu dictum sapien dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla tempor tincidunt turpis non dapibus. Aenean dictum purus dolor, sed sagittis neque bibendum sed. Nullam lorem turpis, blandit ut convallis at, ullamcorper a purus. Vestibulum nisl massa, aliquet a eros quis, imperdiet cursus diam. Nunc ut nulla et diam maximus sollicitudin. Aliquam at risus a quam aliquam condimentum. Maecenas dolor sem, commodo vel euismod quis, tempor id eros. Aliquam rhoncus massa vitae urna sollicitudin mattis. Nullam vehicula mi quam, vitae mollis dolor luctus quis."
+    },
+    {
+      "id": 18,
+      "category_id": 2,
+      "name": "CyberpowerPC Gamer Xtreme VR Gaming PC",
+      "price": 12000,
+      "imgurl": "https://m.media-amazon.com/images/I/71Lczneb0VL._AC_SL1500_.jpg",
+      "description": "Sed at laoreet nunc. Fusce eu elit ac orci sodales feugiat eget a purus. Ut vestibulum semper neque, non rutrum risus mattis vitae. Phasellus vulputate lacus condimentum bibendum dignissim. Duis posuere urna et erat semper faucibus. Quisque eleifend urna lacus, in dignissim sem semper fringilla. Sed quam dui, luctus sed odio malesuada, rhoncus pellentesque massa. Etiam rhoncus, urna eget eleifend aliquam, ex dui posuere dolor, quis vehicula diam nunc tincidunt urna. "
+    },
+    {
+      "id": 19,
+      "category_id": 2,
+      "name": "MSI Pulse GL66 Gaming Laptop",
+      "price": 6000,
+      "imgurl": "https://m.media-amazon.com/images/I/71nux68SjIL._AC_SL1500_.jpg",
+      "description": "Quisque ac est augue. Vestibulum eleifend, risus auctor lobortis cursus, leo nulla porttitor tellus, et pulvinar tellus felis non ex. Morbi nibh quam, sagittis ac varius vitae, imperdiet aliquam sem. Cras eleifend feugiat euismod. Sed consectetur lorem nec odio facilisis gravida. Integer tempus pretium condimentum. Ut finibus ligula tortor, id dapibus odio convallis non. Nullam imperdiet ipsum non felis euismod, sit amet aliquam nisi blandit."
+    },
+    {
+      "id": 20,
+      "category_id": 2,
+      "name": "Razer Blade 15 Gaming Laptop",
+      "price": 13000,
+      "imgurl": "https://m.media-amazon.com/images/I/61-ODJrgv6L._AC_SL1500_.jpg",
+      "description": "Nullam massa urna, tempus eu risus nec, tempus molestie nulla. Praesent a posuere velit. Cras sed suscipit enim, sed sagittis diam. Ut mi felis, scelerisque sit amet mi non, euismod lacinia turpis. Pellentesque finibus ante nisl, consequat tincidunt est consectetur quis. Phasellus at eleifend lectus. Cras gravida urna id tortor vestibulum, et suscipit nisi accumsan. Nullam sagittis vitae elit et viverra. Integer dui erat, fermentum vitae odio sit amet, posuere egestas nisi."
+    },
+    {
+      "id": 21,
+      "category_id": 2,
+      "name": "Apple 2023 MacBook Pro",
+      "price": 15000,
+      "imgurl": "https://m.media-amazon.com/images/I/61bwiPRcv2L._AC_SL1500_.jpg",
+      "description": "Maecenas pharetra, justo ut fermentum tempus, lectus leo venenatis lacus, id varius lectus est at mauris. Nam sit amet eros eu nisi cursus auctor. Duis ultrices elit eu dolor hendrerit, id convallis est efficitur. Aenean dictum mollis fermentum. Nam sed volutpat odio. Ut scelerisque consectetur convallis. Sed felis tortor, luctus nec hendrerit eu, tempor tristique nibh."
+    },
+    {
+      "id": 22,
+      "category_id": 2,
+      "name": "Apple MacBook Air 13.6",
+      "price": 7000,
+      "imgurl": "https://m.media-amazon.com/images/I/617ey+H43gL._AC_SL1200_.jpg",
+      "description": "Maecenas quam nunc, hendrerit sit amet risus quis, volutpat posuere metus. Proin in libero placerat, fringilla tortor quis, consectetur nisi. In sagittis consequat convallis. Donec elementum sed sapien et mattis. Cras nibh metus, lobortis ac pulvinar ut, vulputate et quam. Maecenas eget ex tellus."
+    },
+    {
+      "id": 23,
+      "category_id": 3,
+      "name": "Logitech G305 Lightspeed",
+      "price": 250,
+      "imgurl": "https://m.media-amazon.com/images/I/51-lYSLIQVL._AC_SL1500_.jpg",
+      "description": "Nam finibus, dui at pellentesque ornare, nunc ex tempus arcu, pellentesque mattis erat est non mi. Etiam sit amet tellus nec dui luctus volutpat quis ac quam. Curabitur ultrices efficitur nibh, sed porta nibh venenatis ut. Sed fringilla et neque non hendrerit. Vestibulum consequat laoreet leo nec iaculis. Ut ex tellus, vehicula vitae risus sit amet, tempus blandit nunc. Nulla commodo aliquam ligula volutpat posuere. Vestibulum vitae molestie elit. Maecenas sed urna vel urna placerat posuere."
+    },
+    {
+      "id": 24,
+      "category_id": 3,
+      "name": "Razer Mamba Elite Wired",
+      "price": 175,
+      "imgurl": "https://m.media-amazon.com/images/I/61VwBIfNvJL._AC_SL1500_.jpg",
+      "description": "Aenean quis dolor eu libero posuere molestie sit amet lacinia diam. Nullam ut dui nibh. Maecenas quis arcu tristique, placerat magna quis, aliquam tellus. Integer sit amet placerat dui. Nulla fermentum nisi metus, at pharetra purus consequat non. Maecenas egestas dui ut lacus pellentesque, id scelerisque augue tincidunt. Suspendisse sollicitudin eget libero in facilisis."
+    },
+    {
+      "id": 25,
+      "category_id": 3,
+      "name": "DESINO Gaming Desk 32 Inch",
+      "price": 200,
+      "imgurl": "https://m.media-amazon.com/images/I/81Ze3ZDcOgL._AC_SL1500_.jpg",
+      "description": "Etiam vehicula sem nisl, at dictum nibh rhoncus vitae. Donec purus leo, euismod eu fringilla ut, consectetur ac arcu. Suspendisse varius enim non nulla fermentum porttitor. Duis eu luctus felis. Fusce quis metus vestibulum, eleifend lectus in, rutrum tortor. Duis sollicitudin turpis sit amet lacus molestie, pellentesque fermentum est volutpat. "
+    },
+    {
+      "id": 26,
+      "category_id": 3,
+      "name": "SteelSeries QcK Gaming Surface Medium Cloth",
+      "price": 20,
+      "imgurl": "https://m.media-amazon.com/images/I/41gMuxP1NbL._AC_SL1500_.jpg",
+      "description": "Proin et ex interdum, commodo mauris venenatis, auctor dui. Phasellus sit amet purus sagittis, facilisis magna quis, aliquam ante. Praesent sit amet luctus lacus, in sagittis erat. Aenean at viverra neque. Duis blandit lacus id ante rutrum, tincidunt placerat nisl lacinia. Nulla non sodales felis. Sed risus arcu, scelerisque ac maximus vel, laoreet at enim. Curabitur interdum ultricies laoreet."
+    },
+    {
+      "id": 27,
+      "category_id": 3,
+      "name": "LG UltraGear QHD 34-Inch Curved Gaming Monitor",
+      "price": 1800,
+      "imgurl": "https://m.media-amazon.com/images/I/81G+kmQ6q9L._AC_SL1500_.jpg",
+      "description": "Aenean feugiat est luctus mi bibendum, et aliquet dolor varius. Ut vitae mattis justo, in faucibus nisl. Maecenas massa urna, consectetur non lectus sed, dapibus dignissim sem. Sed ultricies dictum enim. Vivamus tortor mi, fermentum sit amet laoreet id, faucibus eget metus. Fusce ornare tortor tellus, facilisis convallis lorem faucibus et. Phasellus accumsan risus quis odio maximus accumsan."
+    },
+    {
+      "id": 28,
+      "category_id": 3,
+      "name": "HyperX Cloud Core – Wireless Gaming Headset ",
+      "price": 500,
+      "imgurl": "https://m.media-amazon.com/images/I/61flgQb9s1L._AC_SL1500_.jpg",
+      "description": "Fusce a iaculis quam. Nulla molestie tellus sit amet dolor iaculis, nec vulputate ex vestibulum. Pellentesque rutrum sapien nunc, quis pharetra risus dictum in."
+    },
+    {
+      "id": 29,
+      "category_id": 3,
+      "name": "Logitech G920 Driving Force",
+      "price": 1250,
+      "imgurl": "https://m.media-amazon.com/images/I/61O7HHu181L._AC_SL1500_.jpg",
+      "description": " Ut sit amet lorem nec erat eleifend venenatis. Phasellus venenatis maximus arcu, nec iaculis enim lobortis vitae. Phasellus sed molestie nibh, vitae scelerisque erat. Aenean nec ultricies dolor. Integer viverra, magna at aliquam condimentum, turpis lectus sagittis tortor, id elementum nisi ex gravida neque. Vestibulum at commodo turpis. Maecenas sed augue nisl. Proin id lorem ex. Vestibulum dapibus mauris nulla, eget aliquet ante maximus sed."
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "Phones",
+      "taxrate": 19
+    },
+    {
+      "id": 1,
+      "name": "Phone accesories",
+      "taxrate": 10
+    },
+    {
+      "id": 2,
+      "name": "Computers",
+      "taxrate": 19
+    },
+    {
+      "id": 3,
+      "name": "Computer accesories",
+      "taxrate": 10
+    }
+  ],
+  "orders": [
+    {
+      "id": 0,
+      "user_id": 0,
+      "state": "sold",
+      "content": {}
+    },
+    {
+      "user_id": "0",
+      "state": "sold",
+      "content": {
+        "1": 1,
+        "11": 1,
+        "17": 1,
+        "23": 1,
+        "27": 1
+      },
+      "id": 1,
+      "address": "test"
+    },
+    {
+      "user_id": "0",
+      "state": "solid",
+      "content": {
+        "3": 1
+      },
+      "id": 2,
+      "address": "test2"
+    },
+    {
+      "user_id": "0",
+      "state": "solid",
+      "content": {
+        "3": 1,
+        "4": 1
+      },
+      "id": 3,
+      "address": "testt"
+    },
+    {
+      "user_id": "0",
+      "state": "solid",
+      "content": {
+        "3": 1,
+        "4": 1
+      },
+      "id": 4,
+      "address": "aaa"
+    },
+    {
+      "user_id": "0",
+      "state": "solid",
+      "content": {
+        "2": 1,
+        "3": 1
+      },
+      "id": 5,
+      "address": "sa"
+    },
+    {
+      "user_id": "0",
+      "state": "sold",
+      "content": {
+        "1": 1,
+        "4": 1,
+        "10": 1,
+        "12": 1,
+        "17": 1,
+        "29": 2
+      },
+      "id": 6,
+      "address": "Asasfa fsaf "
+    },
+    {
+      "user_id": "1",
+      "state": "solid",
+      "content": {
+        "6": 1
+      },
+      "id": 7,
+      "address": "tes"
+    },
+    {
+      "user_id": "1",
+      "state": "solid",
+      "content": {
+        "6": 1
+      },
+      "id": 8,
+      "address": "t2"
+    },
+    {
+      "user_id": "1",
+      "state": "sold",
+      "content": {
+        "5": 1
+      },
+      "id": 9,
+      "address": "test"
+    },
+    {
+      "user_id": "3",
+      "state": "new",
+      "content": {},
+      "id": 10
+    },
+    {
+      "user_id": "4",
+      "state": "new",
+      "content": {},
+      "id": 11
+    },
+    {
+      "user_id": "5",
+      "state": "new",
+      "content": {},
+      "id": 12
+    },
+    {
+      "user_id": "1",
+      "state": "new",
+      "content": {},
+      "id": 13
+    },
+    {
+      "user_id": "0",
+      "state": "new",
+      "content": {
+        "4": 1
+      },
+      "id": 14
+    },
+    {
+      "user_id": "2",
+      "state": "new",
+      "content": {
+        "2": 1,
+        "9": 1,
+        "10": 1
+      },
+      "id": 15
+    }
+  ]
+}
