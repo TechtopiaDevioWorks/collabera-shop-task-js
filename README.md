@@ -6,7 +6,7 @@ The website features a product listing page, a login page, and a checkout page. 
 
 The fake API data is served by JSON Server, allowing for easy testing and development without the need for a real backend server. Axios is used to make HTTP requests to the API and handle responses.
 
-Bulma is used to style the website and provide a responsive design that works well on desktop and mobile devices. Thie project also uses Font Awesome for icons and the logo was created using a stock image from Freepik - Flaticon.
+Bulma is used to style the website and provide a responsive design that works well on desktop and mobile devices. Thie project also uses Font Awesome for icons and the logo was created using a stock image from [Freepik - Flaticon](https://www.flaticon.com/free-icons/technology).
 
 #Installation and Usage
 To run the website locally, clone the repository and install dependencies with npm install. Start the JSON Server with json-server -w data/data.json. Access the website through the main end point html/dashboard.html
